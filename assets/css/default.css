@@ -78,6 +78,15 @@
 
 /* #endregion Root */
 
+.svg-with-margin {
+    margin-right: 12px;
+}
+
+.contact-div {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 /*----------------------------------------------
 2. Button
 ----------------------------------------------*/

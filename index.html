@@ -113,6 +113,11 @@
           transform: rotate(360deg);
         }
       }
+      @media only screen and (max-width: 600px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
     </style>
 
     <!-- Page loading scripts -->
@@ -152,7 +157,7 @@
         <div class="container px-3">
           <a href="index.html" class="navbar-brand pe-3">
             <img src="assets/images/gallery/DMDicon.png" width="60" alt="DMDicon">
-            Dental Medical Development
+            <span class="hide-on-mobile">Dental Medical Development</span>
           </a>
           <div id="navbarNav" class="offcanvas offcanvas-end">
             <div class="offcanvas-header border-bottom">
@@ -497,13 +502,13 @@
                       </blockquote>
                       <figcaption class="card-footer border-0 d-sm-flex d-md-none w-100 pb-2">
                         <div class="d-flex align-items-center border-end-sm pe-sm-4 me-sm-2">
-                          <img src="assets/img/avatar/01.jpg" width="48" class="rounded-circle" alt="Dr Miller">
+                          <img class="hide-on-mobile" src="assets/img/avatar/01.jpg" width="48" class="rounded-circle" alt="Dr Miller">
                           <div class="ps-3">
                             <h5 class="fw-semibold lh-base mb-0">Dr. Miller</h5>
                             <span class="fs-sm text-muted">Dentist</span>
                           </div>
                         </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-heart-fill" viewBox="0 0 16 16">
+                        <svg class="hide-on-mobile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-heart-fill" viewBox="0 0 16 16">
                           <path d="M2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
                         </svg>
                       </figcaption>
@@ -518,13 +523,13 @@
                       </blockquote>
                       <figcaption class="card-footer border-0 d-sm-flex d-md-none w-100 pb-2">
                         <div class="d-flex align-items-center border-end-sm pe-sm-4 me-sm-2">
-                          <img src="assets/img/avatar/06.jpg" width="48" class="rounded-circle" alt="Annette Black">
+                          <img class="hide-on-mobile" src="assets/img/avatar/06.jpg" width="48" class="rounded-circle" alt="Annette Black">
                           <div class="ps-3">
                             <h5 class="fw-semibold lh-base mb-0">Dr. Patel</h5>
                             <span class="fs-sm text-muted">Optometrist</span>
                           </div>
                         </div>
-                        <img src="assets/img/brands/02.svg" width="160" class="d-block mt-2 ms-5 mt-sm-0 ms-sm-0" alt="Company logo">
+                        <img class="hide-on-mobile" src="assets/img/brands/02.svg" width="160" class="d-block mt-2 ms-5 mt-sm-0 ms-sm-0" alt="Company logo">
                       </figcaption>
                     </figure>
                   </div>
@@ -537,13 +542,13 @@
                       </blockquote>
                       <figcaption class="card-footer border-0 d-sm-flex d-md-none w-100 pb-2">
                         <div class="d-flex align-items-center border-end-sm pe-sm-4 me-sm-2">
-                          <img src="assets/img/avatar/05.jpg" width="48" class="rounded-circle" alt="Darrell Steward">
+                          <img class="hide-on-mobile" src="assets/img/avatar/05.jpg" width="48" class="rounded-circle" alt="Darrell Steward">
                           <div class="ps-3">
                             <h5 class="fw-semibold lh-base mb-0">Dr. Pham</h5>
                             <span class="fs-sm text-muted">Pediatrician</span>
                           </div>
                         </div>
-                        <img src="assets/img/brands/04.svg" width="160" class="d-block mt-2 ms-5 mt-sm-0 ms-sm-0" alt="Company logo">
+                        <img class="hide-on-mobile" src="assets/img/brands/04.svg" width="160" class="d-block mt-2 ms-5 mt-sm-0 ms-sm-0" alt="Company logo">
                       </figcaption>
                     </figure>
                   </div>
@@ -632,7 +637,7 @@
             </div>
             <div class="col">
               <div class="d-flex align-items-center">
-                <div class="display-4 text-primary">65%</div>
+                <div class="display-4 text-primary">+65%</div>
                 <p class="ps-3 mb-0">Greater Social Media Engagement</p>
               </div>
             </div>

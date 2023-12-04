@@ -8997,6 +8997,10 @@ textarea.form-control-lg {
   background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%) !important;
 }
 
+.bg-gradient-primary-holiday {
+  background: linear-gradient(90deg, #198754 0%, #20c997 50%, #0dcaf0 100%) !important;
+}
+
 .bg-gradient-primary-translucent {
   background: linear-gradient(180deg, rgba(99, 102, 241, 0) 0%, rgba(99, 102, 241, 0.6) 120%) !important;
 }
